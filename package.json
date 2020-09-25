@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "sass --watch sass/_main.scss static/style.css",
+    "build-css": "sass sass/_main.scss static/style.css",
+    "build": "yarn build-css && cp index.html public/ && cp -R static public/"
+  },
+  "dependencies": {
+    "sass": "^1.26.11"
+  }
+}
